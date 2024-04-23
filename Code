@@ -1,5 +1,4 @@
-```
-import time
+```import time
 import unittest
 from selenium.webdriver.support import expected_conditions as EC
 from selenium import webdriver
@@ -37,5 +36,4 @@ class TestClass01(unittest.TestCase):
         WebDriverWait(self.driver, 20).until(EC.element_to_be_clickable(
             (By.CSS_SELECTOR, "div.kVcxNv:nth-child(3) > a:nth-child(1) > div:nth-child(1)"))).click()
         time.sleep(5)
-        self.driver.get_screenshot_as_file('screenshot2.png')
-```
+        self.driver.get_screenshot_as_file('screenshot2.png')```
